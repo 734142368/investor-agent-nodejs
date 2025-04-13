@@ -1,10 +1,7 @@
-const express = require('express');
-const app = express();
+function main() {
+    console.log("Hello, Investor Agent!");
+}
 
-app.get('/', (req, res) => {
-  res.send('Hello World! This is the Node.js version of investor-agent project.');
-});
-
-app.listen(3000, () => {
-  console.log('Server is running on port 3000');
-});
+if (require.main === module) {
+    main();
+}
