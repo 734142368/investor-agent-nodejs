@@ -1,0 +1,14 @@
+{
+  "name": "investor-agent-nodejs",
+  "version": "1.0.0",
+  "description": "Node.js version of investor-agent project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "您的名字",
+  "license": "MIT"
+}
